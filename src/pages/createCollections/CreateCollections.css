@@ -1,0 +1,239 @@
+.createCollections{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+}
+
+.createCollectionCard{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 70%;
+    height: 50%;
+    margin-top: 20px;
+}
+.title{
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.collectionLogo{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.collectionLogo p{
+    font-size: 20px;
+    font-weight: 500;
+   
+}
+
+.collectionLogo p span{
+    color: red;
+    margin-left: 5px;
+    position: absolute;
+    
+}
+
+.collectionLogo span{
+    font-size: 13px;
+    color: gray;
+    margin-top: 0px;
+}
+
+.logoCollection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px dashed gray;
+    margin-top: 10px;
+}
+
+.logoCollection p{
+    font-size: 60px;
+    color: gray;
+    position: sticky;
+    overflow: hidden;
+
+}
+
+.logoCollection img{
+    display: flex;
+    align-self: center;
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.featuredImg{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.featuredImg p{
+    font-size: 20px;
+    font-weight: 500;
+   
+}
+
+.featuredImg span{
+    font-size: 13px;
+    color: gray;
+    margin-top: 0px;
+}
+
+.imageFeatured{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px dashed gray;
+    margin-top: 10px;
+}
+
+.imageFeatured p{
+    font-size: 60px;
+    color: gray;
+    position: sticky;
+    overflow: hidden;
+
+}
+
+.imageFeatured img{
+    display: flex;
+    align-self: center;
+    box-sizing: border-box;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    
+}
+
+.bannerImg{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.bannerImg p{
+    font-size: 20px;
+    font-weight: 500;
+   
+}
+
+.bannerImg span{
+    font-size: 13px;
+    color: gray;
+    margin-top: 0px;
+    align-items: flex-start;
+}
+
+.imgBanner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 750px;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px dashed gray;
+    margin-top: 10px;
+}
+
+.imgBanner p{
+    font-size: 60px;
+    color: gray;
+    position: sticky;
+    overflow: hidden;
+
+}
+
+.imgBanner img{
+    display: flex;
+    align-self: center;
+    box-sizing: border-box;
+    width: 750px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    
+}
+
+.buttoncollection{
+    align-items: center;
+    width: 100px;
+    color: white;
+    background-color: steelblue;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 18px;
+    padding: 5px 7px;
+    margin-top:20px;
+    margin-left: 2px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.collectionDetails{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.collectionDetails p{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.collectionDetails p span{
+    color: red;
+    margin-left: 5px;
+    position: absolute;
+    
+    
+}
+
+.collectionDetails span{
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.collectionDetails input{
+    width: 650px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    padding: 7px;
+}
+
+.collectiondesc{
+    width: 650px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    padding: 7px;
+}
+
+.collectionIcons{
+    font-size: 18px;
+    color: gray;
+    align-items: center;
+    margin-right: 5px;
+}

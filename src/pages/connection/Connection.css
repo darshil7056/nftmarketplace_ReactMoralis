@@ -1,0 +1,198 @@
+
+.connection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.connectionCard{
+    margin-top: 30px;
+    width: 560px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.connectionCard header{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.connectionCard span{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: gray;
+}
+
+.walletCollection{
+    margin-top: 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    width: 560px;
+    height: 270px;
+}
+
+.walletcompo{
+    height: 50px;
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.walletcompo :hover{
+    background-color: lightgrey;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+}
+
+
+.moreOpt span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.moreOpt :hover{
+    background-color: lightgrey;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+}
+
+.modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+}
+
+.modalHeader img{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+
+}
+
+.modalHeader header{
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.modalLogin{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.modalLogin header{
+    font-size: 14px;
+    font-weight: 600;
+    color:black;
+    display: flex;
+    align-items: flex-start;
+}
+
+.modalLogin input{
+    border: none;
+    border-bottom: 1px solid steelblue;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.modalLogin button{
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color:steelblue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.modalLogin p{
+    margin-top: 10px;
+    font-size: 14px;
+    color: gray;
+    font-weight: bold;
+}
+
+.modalLogin p span{
+    margin-left: 10px ;
+    color: steelblue;
+    cursor: pointer;
+}
+
+.modalLogin2{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.modalLogin2 header{
+    font-size: 14px;
+    font-weight: 600;
+    color:black;
+    display: flex;
+    align-items: flex-start;
+}
+
+.modalLogin2 textarea{
+    border: none;
+    border: 1px solid steelblue;
+    border-radius: 10px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.modalLogin2 button{
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color:steelblue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.modalLogin2 p{
+    margin-top: 10px;
+    font-size: 14px;
+    color: gray;
+    font-weight: bold;
+}
+
+.modalbtn button {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }

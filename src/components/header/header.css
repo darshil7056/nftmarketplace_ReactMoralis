@@ -1,0 +1,174 @@
+.header {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(131, 34, 225, 1) 0%,
+    rgba(32, 11, 134, 1) 100%
+  );
+  width: 100%;
+  color: white;
+  position: sticky;
+  z-index: 999;
+  top: 0;
+}
+
+.headerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.logo img {
+  width: 120px;
+  height: 100%;
+}
+
+.leftHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 30px;
+}
+
+.rightHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.leftContainer :hover {
+  color: black;
+}
+
+.leftContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-right: 30px;
+  color: white;
+  cursor: pointer;
+}
+.rightContainer :hover {
+  color: black;
+}
+
+.rightContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  margin-right:15px;
+  color: white;
+  cursor: pointer;
+}
+
+.headerIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-size: 35px;
+}
+
+.link {
+  text-decoration: none;
+  color: inheirt;
+}
+
+.headerIcons link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* .listitem{
+    border: none;
+    border-radius: 5px;
+    margin: 5px 10px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.listitem :hover{
+    background-color: rgb(194, 194, 194);
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+}
+
+.moreOpt span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 5px;
+    color: gray;
+}
+
+.moreOpt :hover{
+    background-color: lightgrey;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+} */
+
+.modalCollection {
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 500px;
+  height: 270px;
+}
+
+.modalcompo {
+  border: 1px solid lightgray;
+  margin-bottom: 10px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: bolder;
+  border-radius: 20px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.modalcompo :hover {
+  background-color: lightgrey;
+  border-radius: 20px;
+  border: none;
+  font-weight: 600;
+  height: 50px;
+}
+
+.modalmoreOpt {
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  height: 50px;
+}
+.modalmoreOpt span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bolder;
+  padding: 5px;
+  height: 50px;
+}
+
+.modalmoreOpt :hover {
+  background-color: lightgrey;
+  border-radius: 20px;
+  border: none;
+  font-weight: 600;
+}

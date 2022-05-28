@@ -1,0 +1,44 @@
+.stats{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    flex-direction: column;
+}
+
+.statsHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    flex-direction: column;
+}
+
+.statsHeader header{
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.statsHeader span{
+    font-size: 20px;
+    font-weight: 400;
+    color: gray;
+}
+
+.statsDropdown{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.dropdownCompo{
+    border: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+
+.tableContainer{
+    width: 80%;
+    margin-top: 30px;
+}

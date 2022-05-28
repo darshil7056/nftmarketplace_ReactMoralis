@@ -1,0 +1,63 @@
+.created{
+    display: flex;
+    flex-direction: column;
+}
+
+.craetedCard{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    border: 0.5px solid lightgray;
+    width: 100%;
+    height: 500px;
+}
+
+.createdHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 90%;
+    height: 50px;
+}
+
+.createdsearchbar{
+    display: flex;
+    align-items: center;
+    width: 650px;
+    height: 50px;
+    margin-top: 20px;
+    padding: 5px 7px;
+}
+
+.createdsearchbar input{
+    border: none;
+    font-size: 16px;
+    margin-left: 10px;
+    width: 650px;
+    height: 50px;
+}
+
+
+.createdRight{
+    display: flex;
+}
+
+.createdCompo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 0.5px solid lightgray;
+    width: 90%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.createdCompo h3{
+    font-size: 32px;
+    color: grey;
+}
+

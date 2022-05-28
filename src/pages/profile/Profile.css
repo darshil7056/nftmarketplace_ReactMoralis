@@ -1,0 +1,279 @@
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+.profileContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  width: 100%;
+}
+.bgImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  border: 1px dashed lightgray;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.bgImg img {
+  width: 1600px;
+  height: 200px;
+}
+
+
+.profileImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.5px dashed lightgray;
+ background-color: white;
+  border-radius: 50%;
+  height: 150px;
+  width:  150px;
+  object-fit: cover;
+  box-sizing: border-box;
+  transform: translate(0px, -50px);
+}
+
+.imgIcon {
+  width: 20px;
+  height: 20px;
+  color: lightgray;
+  overflow: hidden;
+  position: sticky;
+}
+
+.profileImg img {
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+
+.profileDetails header {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.profileDetails span {
+  font-size: 18px;
+  font-weight: bold;
+  color: gray;
+  margin-top: 5px;
+}
+
+.otherDeatils{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 120px;
+  margin-top: 20px;
+}
+
+.share{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+}
+.more{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+}
+.profileBottomCard{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+  margin-top: 50px;
+
+  border-top: 1px solid lightgray;
+  
+}
+
+.aboutme{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 30%;
+ 
+  margin-left: 50px;
+  margin-top: 20px;
+  
+}
+.aboutme header{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.aboutmeCard{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10px;
+  width: 75%;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+}
+.aboutmeCard p{
+  font-size: 14px;
+  font-weight: 500;
+}
+.aboutSub{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.collection{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.collection header{
+  font-size: 18px;
+  font-weight: 600;
+  color: gray;
+}
+
+.collection span{
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+
+.creation{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.creation header{
+  font-size: 18px;
+  font-weight: 600;
+  color: gray;
+}
+
+.creation span{
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+
+.CreatedCollected{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 70%;
+  margin-top: 20px;
+}
+
+.collected{
+  margin-right: 10px;
+}
+
+.collected header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  color: white;
+  background-image:radial-gradient(100% 100% at 53.13% 0%, #31e7fa 0%, #4477ff 52.6%, #db74ff 100%);
+  cursor: pointer;
+}
+
+
+.Created{
+  margin-right: 10px;
+}
+
+.Created header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  color: white;
+  background-image:radial-gradient(100% 100% at 53.13% 0%, #31e7fa 0%, #4477ff 52.6%, #db74ff 100%);
+  cursor: pointer;
+}
+
+
+
+
+
+.profileCollection {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.profileCompo {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  cursor: pointer;
+}
+
+.profileCompo :hover {
+  color: black;
+}
+
+.profileCompo header {
+  font-size: 20px;
+  font-weight: 500;
+  color: gray;
+}
+
+.profileCompo span {
+  font-size: 20px;
+  font-weight: 500;
+  color: gray;
+}
+
+.profileIcon {
+  font-size: 20px;
+  color: grey;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}

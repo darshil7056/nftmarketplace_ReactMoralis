@@ -1,0 +1,228 @@
+.createPage {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.CreateCard {
+  display: flex;
+  /* flex-wrap: wrap;
+  flex-direction: row; */
+  justify-content: space-between;
+  width: 70%;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 7px 15px;
+}
+.CreateCard:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.craetetitle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-right: 53%;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.requiredfield {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  font-size: 16px;
+  color: gray;
+}
+
+.span {
+  color: red;
+  margin-right: 5px;
+}
+
+.uploadImage {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.uploadImage p {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.uploadImage p span {
+  color: red;
+  margin-left: 5px;
+  transform: translate(310px, -35px);
+  position: absolute;
+}
+
+.uploadImage span {
+  display: flex;
+  align-items: flex-start;
+  width: 320px;
+  font-size: 12px;
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.leftCard {
+  width: 60%;
+  position: sticky;
+  float: left;
+}
+.rightcard {
+  float: left;
+  width: 50%;
+  margin-top: 50px;
+  margin-right: 50px;
+  position: sticky;
+  margin-left: 50px;
+  background-color: white;
+}
+.imageDetails {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.imageDetails p {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.imageDetails p span {
+  color: red;
+}
+
+.imageDetails span {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.imageName {
+  width: 100%;
+  height: 40px;
+  /* border-radius: 10px;
+    border: 1px solid lightgray; */
+  border: none;
+  padding: 7px;
+  margin-bottom: 10px;
+}
+
+.imageUrl {
+  width: 100%;
+  height: 40px;
+  /* border-radius: 10px;
+    border: 1px solid lightgray; */
+  border: none;
+  padding: 7px;
+  margin-bottom: 10px;
+}
+.imagedesc {
+  width: 100%;
+  height: 40px;
+  /* border-radius: 10px;
+    border: 1px solid lightgray; */
+  border: none;
+  padding: 7px;
+  margin-bottom: 10px;
+}
+
+.imagesupply {
+  width: 650px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  padding: 7px;
+  margin-bottom: 10px;
+}
+
+.createButton {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.buttoncreate {
+  width: 100px;
+  color: white;
+  background-image: radial-gradient(
+    100% 100% at 53.13% 0%,
+    #31e7fa 0%,
+    #4477ff 52.6%,
+    #db74ff 100%
+  );
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  font-size: 18px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 2px;
+  cursor: pointer;
+}
+
+.dragDrop {
+  position: relative;
+  border: 2px dashed gray;
+  border-radius: 10px;
+  height: 300px;
+  width: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  color: gray;
+  font-weight: 600;
+  flex-direction: column;
+}
+.dragDropspan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: sticky;
+  overflow: hidden;
+}
+/* .dragDrop p{
+    position: sticky;
+    overflow: hidden;
+}
+
+.dragDrop span{
+    position: sticky;
+    overflow: hidden;
+} */
+.dragDrop img {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  height: 300px;
+  width: 380px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .CreateCard{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .leftCard {
+      width: 100%;
+    }
+    .rightcard{
+        width: 100%;
+    }
+  }

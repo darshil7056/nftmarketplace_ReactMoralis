@@ -1,0 +1,55 @@
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.navbarCollections{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.navbarcollecCard{
+    margin-left: 70px;
+    margin-right: 20px;
+    margin-top: 30px;
+    width:350px;
+    height: 450px;
+    box-shadow: 2px 2px 30px rgba(0, 0.2, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.navbarcollecImage{
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.navbarcollecDetails{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.navbarcollecDetails span{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 5px;
+}
+
+
+.navbarcollecDetails button{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 10px;
+}

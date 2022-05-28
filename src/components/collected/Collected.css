@@ -1,0 +1,63 @@
+.collected{
+    display: flex;
+    flex-direction: column;
+}
+
+.collectedCard{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    border: 0.5px solid lightgray;
+    width: 100%;
+    height: 500px;
+}
+
+.collectedHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 90%;
+    height: 50px;
+}
+
+.searchbar{
+    display: flex;
+    align-items: center;
+    width: 650px;
+    height: 50px;
+    margin-top: 20px;
+    padding: 5px 7px;
+}
+
+.searchbar input{
+    border: none;
+    font-size: 16px;
+    margin-left: 10px;
+    width: 650px;
+    height: 50px;
+}
+
+
+.collectedRight{
+    display: flex;
+}
+
+.collectedCompo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 0.5px solid lightgray;
+    width: 90%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.collectedCompo h3{
+    font-size: 32px;
+    color: grey;
+}
+
